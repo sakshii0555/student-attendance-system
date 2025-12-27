@@ -5,7 +5,6 @@ The system allows teachers to mark student attendance through a web-based interf
 
 ## 🌐 Live Demo (Frontend UI)
 https://sakshii0555.github.io/student-attendance-system/
-
 ---
 
 ## 🚀 Features
