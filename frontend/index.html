@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Attendance</h2>
+
+    <label>Student Name</label>
+    <input type="text" id="name" placeholder="Enter student name">
+
+    <label>Roll Number</label>
+    <input type="text" id="roll" placeholder="Enter roll number">
+
+    <label>Date</label>
+    <input type="date" id="date">
+
+    <label>Status</label>
+    <select id="status">
+        <option value="Present">Present</option>
+        <option value="Absent">Absent</option>
+    </select>
+
+    <button onclick="markAttendance()">Mark Attendance</button>
+    <button onclick="viewAttendance()">View Attendance</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
